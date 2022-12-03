@@ -448,6 +448,7 @@ height: 60px;
 }
 
 .footer {
+  margin: auto;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color:#1f1f1f;
@@ -498,6 +499,7 @@ height: 60px;
 .footer__list-item {
   margin-bottom: 16px;
   align-content: center;
+  font-size: 16px;
   
   
 }
@@ -523,7 +525,8 @@ height: 60px;
 }
 
 .footer__copyright {
-  position: relative;
-  left: 80px;
-  bottom: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+
+  
 }
