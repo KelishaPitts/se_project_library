@@ -12,7 +12,7 @@
 
 .header {
   height: 100vh;
-  min-height: 720px;
+  min-width: 720px;
   max-height: 800px;
   padding-top: 30px;
   padding-left: 80px;
@@ -33,7 +33,8 @@
 }
 
 .logo {
-
+width: 196px;
+height: 60px;
 
 }
 
@@ -226,11 +227,17 @@
 }
 
 .event-info__icon_type_calendar {
-  background-image: url(../images/icon_calendar.svg);
+  width: 24px;
+  height: 24px;
+  background-image:url("../images/icon_calendar.svg") ;
+  
 }
 
 .event-info__icon_type_pin {
-  background-image: url(../images/icon_pin.svg);
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/icon_pin.svg");
+ 
 }
 
 .event-info__text {
@@ -404,6 +411,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 2;
+  max-width: 154px;
   
 
 
@@ -441,6 +449,7 @@
 
 .footer {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   background-color:#1f1f1f;
   color: #ffffff;
 }
@@ -494,6 +503,7 @@
 }
 
 .footer__column-heading {
+  padding-bottom: 20px;
   
 }
 
